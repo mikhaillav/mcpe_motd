@@ -306,7 +306,7 @@ pub fn fetch_unconected_pong(addr: &str) -> Result<UnconnectedPong, MotdError> {
 pub fn fetch_server_id_string(addr: &str) -> Result<ServerIdStringParsed, MotdError> {
     let unconected_pong = match fetch_unconected_pong(addr) {
         Ok(v) => v,
-        Err(e) => Err(e)
+        Err(e) => { return Err(e); }
     };
 
     Ok(unconected_pong.server_id_string_parsed)
