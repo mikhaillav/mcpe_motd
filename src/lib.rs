@@ -274,7 +274,7 @@ pub fn fetch_unconected_pong(addr: &str) -> Result<UnconnectedPong, MotdError> {
     })
 }
 
-/// Returns parsed [server id string](https://wiki.vg/Raknet_Protocol#Unconnected_Pong or error explaining why it wasn't parsed.
+/// Returns parsed [server id string](https://wiki.vg/Raknet_Protocol#Unconnected_Pong) or error explaining why it wasn't parsed.
 /// # Arguments
 ///
 /// * `addr` - address of the target server.

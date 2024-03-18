@@ -3,9 +3,10 @@ name = "mcpe_motd"
 authors = ["Mikhail Lavelin <github.com/mikhaillav>"]
 description = "A library to fetch some information from MCPE (MCBE actually) over raknet"
 license-file = "LICENSE"
+license = "MIT"
 repository = "https://github.com/mikhaillav/mcpe_motd"
 
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 
 [dependencies]
